@@ -29,7 +29,7 @@ const Customizer = () => {
         case "filepicker":
           return <FilePicker file={file} setFile={setFile} readFile={readFile} />
         case "aipicker":
-          // return <AIPicker prompt={prompt} setPrompt={setPrompt} generatingImg={generatingImg} handleSubmit={handleSubmit} />
+          return <AIPicker prompt={prompt} setPrompt={setPrompt} generatingImg={generatingImg} handleSubmit={handleSubmit} />
     
       default:
         return null;
